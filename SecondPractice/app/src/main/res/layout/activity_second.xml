@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xwy.secondpractice.SecondActivity">
+
+    <Button
+        android:id="@+id/gofirst"
+        android:text="first activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/texttofirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gofirst"
+        android:hint="Please input text to first activity"/>
+
+    <TextView
+        android:id="@+id/textfromfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/texttofirst"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
